@@ -6,6 +6,33 @@
 
 using namespace std;
 
+int ADD(int a, int b)
+{
+    return a+b;
+}
+
+int SUB(int a, int b)
+{
+    return a-b;
+}
+
+int MULTI(int a, int b)
+{
+    return a*b;
+}
+
+int DIVIDE(int a, int b)
+{
+    if(b!=0)
+        return a/b;
+
+}
+
+int MOD(int a, int b)
+{
+    return a%b;
+
+}
 
 void main(){
 
